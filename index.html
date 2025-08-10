@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medflect AI - Redirect</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0ea5e9 0%, #0891b2 100%);
+            color: white;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+        .button {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        .button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        .instructions {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            text-align: left;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        .instructions ol {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        .code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Medflect AI</h1>
+        <p>AI-powered healthcare insights with FHIR compliance</p>
+        
+        <a href="./apps/web/" class="button">Launch Web App</a>
+        
+        <div class="instructions">
+            <h3>🚀 Quick Start</h3>
+            <ol>
+                <li><strong>For Live Server:</strong> Set the root directory to <span class="code">apps/web</span></li>
+                <li><strong>For Development:</strong> Run <span class="code">npm run dev:web</span> from the root</li>
+                <li><strong>For Production:</strong> Run <span class="code">npm run build:web</span> then <span class="code">npm run start:local</span></li>
+            </ol>
+        </div>
+        
+        <div class="instructions">
+            <h3>🔧 Live Server Configuration</h3>
+            <p><strong>Problem:</strong> If <span class="code">apps/web/index.html</span> is not opening, Live Server root is set incorrectly.</p>
+            <p><strong>Solution:</strong> Right-click on the <span class="code">apps/web</span> folder and select "Open with Live Server"</p>
+        </div>
+    </div>
+    
+    <script>
+        // Auto-redirect after 5 seconds
+        setTimeout(() => {
+            window.location.href = './apps/web/';
+        }, 5000);
+    </script>
+</body>
+</html> 

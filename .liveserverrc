@@ -1,0 +1,13 @@
+{
+  "root": "./apps/web",
+  "port": 3000,
+  "host": "localhost",
+  "open": true,
+  "file": "index.html",
+  "wait": 1000,
+  "mount": [
+    ["/", "./apps/web"]
+  ],
+  "logLevel": 2,
+  "middleware": []
+} 

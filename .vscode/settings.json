@@ -1,0 +1,26 @@
+{
+  "liveServer.settings.root": "./apps/web",
+  "liveServer.settings.port": 3000,
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.open": true,
+  "liveServer.settings.file": "index.html",
+  "liveServer.settings.wait": 1000,
+  "liveServer.settings.mount": [
+    ["/", "./apps/web"]
+  ],
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.associations": {
+    "*.sol": "solidity",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact"
+  },
+  "emmet.includeLanguages": {
+    "typescript": "html",
+    "typescriptreact": "html"
+  }
+} 
