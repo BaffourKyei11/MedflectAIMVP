@@ -55,7 +55,7 @@
     "react-native-crashlytics": "^3.3.1",
     "react-native-firebase": "^18.7.3",
     "react-native-google-signin": "^10.1.1",
-    "react-native-apple-authentication": "^2.2.0",
+    "react-native-apple-authentication": "^2.0.0",
     "react-native-facebook-login": "^1.0.0",
     "react-native-twitter-signin": "^1.0.0",
     "react-native-linkedin-login": "^1.0.0",
@@ -80,11 +80,6 @@
     "react-native-nfc-manager": "^3.14.12",
     "react-native-qrcode": "^0.3.0",
     "react-native-qrcode-svg": "^6.2.0",
-    "react-native-signature-canvas": "^4.0.0",
-    "react-native-signature-pad": "^0.0.8",
-    "react-native-signature-capture": "^0.4.12",
-    "react-native-signature-panel": "^1.0.0",
-    "react-native-signature-view": "^1.0.0",
     "react-native-signature-canvas": "^4.0.0",
     "react-native-signature-pad": "^0.0.8",
     "react-native-signature-capture": "^0.4.12",
@@ -132,4 +127,4 @@
     "tabWidth": 2
   },
   "private": true
-} 
+}
